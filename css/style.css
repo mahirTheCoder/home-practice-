@@ -1,0 +1,181 @@
+/* -------------common css part start --------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primerycolor: #FFF;
+  --jost: "Jost", sans-serif;
+  --secounderyColor: #051036;
+}
+
+/* -------------common css part end --------------------- */
+
+/* -------------navbar css part start --------------------- */
+
+#bannerPart {
+  background-image: url(../images/bannerBg.png);
+  width: 1965px;
+  height: 863px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.main_menu {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.main_menu img {
+  width: 143px;
+  color: #FFF;
+}
+
+.main_menu ul {
+  gap: 60px;
+  padding-left: 40px;
+
+}
+
+.main_menu ul li a {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--primerycolor);
+  font-family: var(--jost);
+}
+
+.boxCustomised {
+  width: 165px;
+  height: 50px;
+  border: 1px solid var(--primerycolor);
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primerycolor);
+  font-family: var(--jost);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------navbnar css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
+
+/* -------------common css part start --------------------- */
+/* -------------common css part end --------------------- */
