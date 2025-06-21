@@ -117,6 +117,7 @@ p {
   color: var(--primerycolor);
   font-family: var(--jost);
   margin-bottom: 6px;
+  margin: 0 auto;
 }
 
 .text p {
@@ -243,7 +244,7 @@ p {
   justify-content: space-between;
   padding-top: 11px;
   margin-right: 10px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .circle {
@@ -270,8 +271,117 @@ p {
 
 /* -------------navbnar css part end --------------------- */
 
-/* -------------common css part start --------------------- */
-/* -------------common css part end --------------------- */
+/* -------------Popular css part start --------------------- */
+
+#Popular {
+  margin-top: 117px;
+}
+
+
+.singletextOne h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+  padding-bottom: 5px;
+}
+
+.singletextOne p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #697488;
+  font-family: var(--jost);
+}
+
+
+.destinationtext {
+  width: 231px;
+  height: 50px;
+  background: #3554d14e;
+  border-radius: 5px;
+  display: flex;
+}
+
+.destinationtext a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #3554D1;
+  font-size: 16px;
+  font-weight: 400;
+  color: #697488;
+  font-family: var(--jost);
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-left: 20px;
+}
+
+
+.populartext {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.sliderImg {
+  padding: 10px; 
+}
+
+.both {
+  font-size: 30px;
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+}
+
+.pr {
+  left: 47%;
+}
+
+.nr {
+  left: 52%;
+}
+
+.popularSlider {
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------Popular css part end --------------------- */
 
 /* -------------common css part start --------------------- */
 /* -------------common css part end --------------------- */
