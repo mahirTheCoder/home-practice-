@@ -98,6 +98,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .bannertextpart {
@@ -161,46 +162,108 @@ p {
   height: 80px;
   background: var(--primerycolor);
   border-radius: 60px;
+}
+
+
+.locationText a {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+
+
+}
+
+.locationText p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #697488;
+  font-family: var(--jost);
+}
+
+.locationText {
+  width: 152px;
+  height: 49px;
+  text-align: center;
+}
+
+
+.Checkin {
+  width: 198px;
+  height: 49px;
+  border-left: 2px solid #697488;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.Checkin a {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+}
+
+.Checkin p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #697488;
+  font-family: var(--jost);
+}
+
+
+
+.Guest {
+  width: 229px;
+  height: 49px;
+  border-left: 2px solid #697488;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.boxtwo {
+.Guest a {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+}
+
+.Guest p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #697488;
+  font-family: var(--jost);
+}
+
+
+.underBoxtext {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 11px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.circle {
   width: 146px;
   height: 60px;
   background: #3554D1;
   border-radius: 60px;
-  font-size: 15px;
-  font-weight: 500;
-  color: var(--primerycolor);
-  font-family: var(--jost);
-  padding-top: 21px;
-  margin-right: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.circle a {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--primerycolor) !important;
+  font-family: var(--jost);
+}
 
 
 
