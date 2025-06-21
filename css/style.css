@@ -100,6 +100,84 @@ p {
   align-items: center;
 }
 
+.bannertextpart {
+  min-width: 900px;
+  height: 311px;
+  display: flex;
+  justify-content: center;
+  padding-top: 244px;
+}
+
+.text h1 {
+  max-width: 643px;
+  height: 87px;
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--primerycolor);
+  font-family: var(--jost);
+  margin-bottom: 6px;
+}
+
+.text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primerycolor);
+  font-family: var(--jost);
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.nav ul {
+  display: flex;
+  gap: 60px;
+}
+
+.nav ul li a {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--primerycolor);
+  font-family: var(--jost);
+  margin-bottom: 26px;
+  position: relative;
+}
+
+.nav ul li a::before {
+  content: '';
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: var(--primerycolor) !important;
+  transition: all linear 0.3s;
+}
+
+.nav ul li a:hover::before {
+  width: 100%;
+}
+
+.underBox {
+  max-width: 900px;
+  height: 80px;
+  background: var(--primerycolor);
+  border-radius: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxtwo {
+  width: 146px;
+  height: 60px;
+  background: #3554D1;
+  border-radius: 60px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--primerycolor);
+  font-family: var(--jost);
+  padding-top: 21px;
+  margin-right: 20px;
+}
 
 
 
