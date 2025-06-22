@@ -53,12 +53,10 @@ p {
 
 #bannerPart {
   background-image: url(../images/bannerBg.png);
-  width: 1965px;
   height: 863px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .main_menu {
@@ -300,6 +298,7 @@ p {
   background: #3554d14e;
   border-radius: 5px;
   display: flex;
+  align-self: end;
 }
 
 .destinationtext a {
@@ -344,7 +343,8 @@ p {
 
 .popularSlider {
   position: relative;
-  margin-bottom: 200px;;
+  margin-bottom: 200px;
+  ;
 }
 
 .tripImages {
@@ -416,17 +416,98 @@ p {
 /* -------------Popular css part end --------------------- */
 
 /* -------------Recommended css part start --------------------- */
-#Recommended  {
+#Recommended {
   margin-top: 120px;
 }
 
-.customisedSelect  select{
+.customisedSelect {
+  display: flex;
+  align-self: end;
+}
+
+.customisedSelect select {
   width: 150px;
   height: 50px;
   font-size: 20px;
   padding-left: 10px;
-  
 }
+
+.slidertext h2 {
+  font-weight: 500;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.slidertext p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #697488;
+  font-family: var(--jost);
+  padding-bottom: 5px;
+}
+
+.counter .rating {
+  width: 30px;
+  height: 30px;
+  background: #3554D1;
+  border-radius: 5px;
+  color: var(--primerycolor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter .countertext {
+    font-size: 15px;
+  font-weight: 500;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+}
+
+
+.counterplugin {
+  display: flex;
+  gap: 5px;
+}
+
+.counterplugin h2 {
+    font-size: 15px;
+  font-weight: 400;
+  color: #697488;
+  font-family: var(--jost);
+}
+
+.counterplugin p {
+    font-size: 14px;
+  font-weight: 400;
+  color: #697488;
+  font-family: var(--jost);
+  align-self: flex-end;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 7px;
+}
+
+.startingText p {
+      font-size: 16px;
+  font-weight: 500;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+}
+
+
+
+
+
+
+
+
+
 
 /* -------------Recommended css part end --------------------- */
 
