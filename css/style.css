@@ -828,4 +828,79 @@ h1 {
 
 /* -------------Destinations css part end --------------------- */
 
+/* -------------Email css part start --------------------- */
+#Email {
+  margin-top: 120px;
+  background: #0D2857;
+  height: 198px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
 
+
+
+
+.emailimg {
+  width: 60px;
+  height: 60px;
+}
+
+.emailText h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--primerycolor);
+  font-family: var(--jost);
+  padding-bottom: 5px;
+}
+
+.emailText p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primerycolor) !important;
+  font-family: var(--jost);
+}
+
+
+.emailtext {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+
+.mailformButton input {
+  width: 410px;
+  height: 60px;
+  background: var(--primerycolor);
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+  padding-left: 20px;
+}
+
+.mailformButton a {
+  width: 136px;
+  height: 60px;
+  background: #3554D1;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--primerycolor);
+  font-family: var(--jost);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mailformButton {
+  display: flex;
+  gap: 10px;
+}
+
+.emailTextBoth {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -------------Email css part end --------------------- */
