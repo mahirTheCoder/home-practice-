@@ -742,6 +742,90 @@ h1 {
 
 /* -------------inspiration css part end --------------------- */
 
+/* -------------Destinations css part start --------------------- */
+#Destinations {
+  margin-top: 120px;
+}
 
+.destinationsText h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+  padding-bottom: 5px;
+}
+
+.destinationsText p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #697488;
+  font-family: var(--jost);
+  padding-bottom: 40px;
+}
+
+
+.destinatinscitys a {
+  width: 110px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #3554D1;
+  font-family: var(--jost);
+
+}
+
+.destinatinscitys h6 {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+}
+
+
+.destinatinscitys p {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+}
+
+.destinatinscitys {
+  display: flex;
+  gap: 60px;
+  padding-left: 29px;
+}
+
+.propertyTextone h2 {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+  padding-bottom: 5px;
+}
+
+
+
+.propertyCounter h2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--secounderyColor);
+  font-family: var(--jost);
+  padding-bottom: 20px;
+}
+
+.propertyCounter {
+  display: flex;
+  gap: 5px;
+}
+
+.destinationsproperties {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* -------------Destinations css part end --------------------- */
 
 
