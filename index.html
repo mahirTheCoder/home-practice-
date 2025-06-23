@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project slicon</title>
+  <!-- --------aos animations-------------- -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- --------slick slider cdn link------ -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
@@ -24,7 +27,7 @@
   <section id="bannerPart">
     <nav class="navbar navbar-expand-lg main_menu">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a data-aos="fade-right" data-aos-duration="3000" class="navbar-brand" href="#">
           <img src="images/logo (1).png" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -53,7 +56,7 @@
             </li>
           </ul>
           <form class="d-flex boxCustomised" role="search">
-            <a>Sign In / Register</a>
+            <a href="#">Sign In / Register</a>
           </form>
         </div>
       </div>
@@ -74,7 +77,7 @@
               <li><a href="#">Flights</a></li>
             </ul>
           </div>
-          <div class="underBox">
+          <div data-aos="fade-up" data-aos-duration="3000" class="underBox">
             <div class="underBoxtext">
               <div class="locationText">
                 <a>Location</a>
@@ -109,7 +112,7 @@
         <div class="col-lg-12">
           <div class="populartext">
             <div class="singletextOne">
-              <h2>Popular Destinations</h2>
+              <h2 data-aos="zoom-in" data-aos-duration="3000">Popular Destinations</h2>
               <p>These popular destinations have a lot to offer</p>
             </div>
             <div class="destinationtext">
@@ -143,7 +146,7 @@
       </div>
       <div class="row">
         <div class="col-lg-6">
-          <div class="tripImages">
+          <div data-aos="fade-up" data-aos-duration="3000" class="tripImages">
             <img src="images/trip1.png" alt="tripImages">
             <div class="overlay">
               <h2>Things to do on
@@ -155,7 +158,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="tripImages">
+          <div data-aos="fade-down" data-aos-duration="3000" class="tripImages">
             <img src="images/trip2.png" alt="tripImages">
             <div class="overlay">
               <h2>Things to do on
@@ -180,7 +183,7 @@
           <div class="RecommendedText">
             <div class="populartext">
               <div class="singletextOne">
-                <h2>Recommended</h2>
+                <h2 data-aos="zoom-in" data-aos-duration="3000">Recommended</h2>
                 <p>Interdum et malesuada fames ac ante ipsum</p>
               </div>
               <div class="customisedSelect">
@@ -194,131 +197,143 @@
             </div>
           </div>
         </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="popularSlider">
-              <div class="popularSliderImages">
-                <div class="sliderImg">
-                  <img src="images/popolar1.png" alt="slider">
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="popularSlider">
+            <div class="popularSliderImages">
+              <div class="sliderImg">
+                <img src="images/popolar1.png" alt="slider">
+              </div>
+              <div class="slidertext">
+                <h2>The Montcalm At Brewery London City</h2>
+                <p>Westminster Borough, London</p>
+                <div class="counterR">
+                  <div class="rating">4.8</div>
+                  <div class="countertext">Exceptional</div>
+                  <div class="counterplugin">
+                    <h2 class="counter">3014</h2>
+                    <h2>reviews</h2>
+                  </div>
                 </div>
-                <div class="slidertext">
-                  <h2>The Montcalm At Brewery London City</h2>
-                  <p>Westminster Borough, London</p>
-                  <div class="counter">
-                    <div class="rating">4.8</div>
-                    <div class="countertext">Exceptional</div>
-                    <div class="counterplugin">
-                     <h2>3014</h2>
-                     <p>reviews</p>
-                    </div>
-                  </div>
-                  <div class="startingText">
-                    <p>Starting from US$72</p>
-                  </div>
+                <div class="startingText">
+                  <p>Starting from US$72</p>
                 </div>
               </div>
-              <div class="popularSliderImages">
-                <div class="sliderImg">
-                  <img src="images/populae2.png" alt="slider">
+            </div>
+            <div class="popularSliderImages">
+              <div class="sliderImg">
+                <img src="images/populae2.png" alt="slider">
+              </div>
+              <div class="slidertext">
+                <h2>The Montcalm At Brewery London City</h2>
+                <p>Westminster Borough, London</p>
+                <div class="counterR">
+                  <div class="rating">4.8</div>
+                  <div class="countertext">Exceptional</div>
+                  <div class="counterplugin">
+                    <h2 class="counter">3014</h2>
+                    <h2>reviews</h2>
+                  </div>
                 </div>
-                <div class="slidertext">
-                  <h2>The Montcalm At Brewery London City</h2>
-                  <p>Westminster Borough, London</p>
-                  <div class="counter">
-                    <div class="rating">4.8</div>
-                    <div class="countertext">Exceptional</div>
-                    <div class="counterplugin">
-                     <h2>3014</h2>
-                     <p>reviews</p>
-                    </div>
-                  </div>
-                  <div class="startingText">
-                    <p>Starting from US$72</p>
-                  </div>
+                <div class="startingText">
+                  <p>Starting from US$72</p>
                 </div>
               </div>
-              <div class="popularSliderImages">
-                <div class="sliderImg">
-                  <img src="images/popula3.png" alt="slider">
+            </div>
+            <div class="popularSliderImages">
+              <div class="sliderImg">
+                <img src="images/popula3.png" alt="slider">
+              </div>
+              <div class="slidertext">
+                <h2>The Montcalm At Brewery London City</h2>
+                <p>Westminster Borough, London</p>
+                <div class="counterR">
+                  <div class="rating">4.8</div>
+                  <div class="countertext">Exceptional</div>
+                  <div class="counterplugin">
+                    <h2 class="counter">3014</h2>
+                    <h2>reviews</h2>
+                  </div>
                 </div>
-                <div class="slidertext">
-                  <h2>The Montcalm At Brewery London City</h2>
-                  <p>Westminster Borough, London</p>
-                  <div class="counter">
-                    <div class="rating">4.8</div>
-                    <div class="countertext">Exceptional</div>
-                    <div class="counterplugin">
-                     <h2>3014</h2>
-                     <p>reviews</p>
-                    </div>
-                  </div>
-                  <div class="startingText">
-                    <p>Starting from US$72</p>
-                  </div>
+                <div class="startingText">
+                  <p>Starting from US$72</p>
                 </div>
               </div>
-              <div class="popularSliderImages">
-                <div class="sliderImg">
-                  <img src="images/popular4.png" alt="slider">
+            </div>
+            <div class="popularSliderImages">
+              <div class="sliderImg">
+                <img src="images/popular4.png" alt="slider">
+              </div>
+              <div class="slidertext">
+                <h2>The Montcalm At Brewery London City</h2>
+                <p>Westminster Borough, London</p>
+                <div class="counterR">
+                  <div class="rating">4.8</div>
+                  <div class="countertext">Exceptional</div>
+                  <div class="counterplugin">
+                    <h2 class="counter">3014</h2>
+                    <h2>reviews</h2>
+                  </div>
                 </div>
-                <div class="slidertext">
-                  <h2>The Montcalm At Brewery London City</h2>
-                  <p>Westminster Borough, London</p>
-                  <div class="counter">
-                    <div class="rating">4.8</div>
-                    <div class="countertext">Exceptional</div>
-                    <div class="counterplugin">
-                     <h2>3014</h2>
-                     <p>reviews</p>
-                    </div>
-                  </div>
-                  <div class="startingText">
-                    <p>Starting from US$72</p>
-                  </div>
+                <div class="startingText">
+                  <p>Starting from US$72</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </div>
   </section>
 
   <!-- ----------Recommended css part end ------------ -->
 
-  <!-- ----------navbar css part start ------------ -->
-  <!-- ----------navbar css part end ------------ -->
+  <!-- ----------CustomerCare css part start ------------ -->
+  <section id="CustomerCare">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="customerCare">
+            <div class="customerCareText">
+              <img src="images/security.png" alt="img">
+              <h2>Best Price Guarantee</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="customerCareText">
+              <img src="images/page-speed.png" alt="img">
+              <h2>Best Price Guarantee</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="customerCareText">
+              <img src="images/customer-service (1).png" alt="img">
+              <h2>Best Price Guarantee</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ----------CustomerCare css part end ------------ -->
 
-  <!-- ----------navbar css part start ------------ -->
-  <!-- ----------navbar css part end ------------ -->
-
-  <!-- ----------navbar css part start ------------ -->
-  <!-- ----------navbar css part end ------------ -->
-
-  <!-- ----------navbar css part start ------------ -->
-  <!-- ----------navbar css part end ------------ -->
-
-  <!-- ----------navbar css part start ------------ -->
-  <!-- ----------navbar css part end ------------ -->
-
-  <!-- ----------navbar css part start ------------ -->
-  <!-- ----------navbar css part end ------------ -->
-
-  <!-- ----------navbar css part start ------------ -->
-  <!-- ----------navbar css part end ------------ -->
-
-  <!-- ----------navbar css part start ------------ -->
-  <!-- ----------navbar css part end ------------ -->
-
-  <!-- ----------navbar css part start ---
 
 
-<!-- ------jQurieys cdn link-------- -->
+
+
+
+
+
+
+
+  <!-- ------jQurieys cdn link-------- -->
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"
     integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!-- ------------aos animations----------- -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <!-- --------counter plugin cdn link ---- -->
-     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <!-- --------counter plugin cdn link ---- -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 
   <!-- -------slick slider cdn link-------- -->
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -328,8 +343,8 @@
     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
   </script>
 
-<!-- -----counter plugin------ -->
- <!-- <script src="js/jquery.counterup.min.js"></script> -->
+  <!-- -----counter plugin------ -->
+  <script src="js/jquery.counterup.min.js"></script>
 
   <!-- ------java script link add ------ -->
   <script src="js/script.js"></script>
